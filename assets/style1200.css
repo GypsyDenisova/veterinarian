@@ -1,0 +1,374 @@
+.tablet_none{
+    display: none;
+}
+
+
+p.heading{
+    line-height: 35px;
+    font-size: 24px;
+}
+
+
+p.text{
+    line-height: 30px;
+}
+
+.tablet_block{
+    display: block;
+}
+
+.tablet_none{
+    display: none;
+}
+/*Main*/
+
+
+
+.wrapper{
+    width: 950px;
+}
+
+.maim_img{
+    width: 585px;
+    margin-right: 0px;
+}
+
+a.contact{
+    font-size: 24px;
+    height: 60px;
+}
+
+a.tel{
+    margin-left: 180px;
+    margin-right: 30px;
+    padding-left: 36px;
+    padding-right: 50px;
+    width: 165px;
+}
+
+a.map{
+    padding-left: 50px;
+    padding-right: 20px;
+    width: 343px;
+    font-size: 16px;
+}
+
+.main_button{
+    margin-right: -523px;
+    margin-bottom: 92px;
+}
+
+
+span.svg_tel{
+    margin-right: 20px;
+}
+span.svg_map{
+    margin-right: 20px;
+}
+
+.main_text__div{
+    width: 404px;
+}
+.main_text__div img{
+    width: 100%;
+}
+
+p.main_info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a.main_link{
+    margin-bottom: 171px;
+}
+
+span.menu{
+    height: 60px;
+    width: 60px;
+}
+
+p.main_advantage__right{
+    font-size: 24px;
+}
+
+.main_bottom{
+     margin-top: -76px;
+}
+
+/*Services*/
+
+p.title{
+    margin-top: 42px;
+}
+
+.services_animal__img{
+    margin-bottom: 10px;
+}
+
+a.animalButton{
+ font-size: 24px;
+    
+ padding-left: 60px;
+ padding-right: 60px;
+ height: 40px;
+ padding-top: 20px;
+ margin-right: 20px;
+}
+
+
+
+.services_content{
+    margin-bottom: 100px;
+    column-gap: 100px;
+    width: 802px;
+}
+
+p.services_advantage__right{
+    width: 530px;
+    margin-top: 138px;
+    line-height: 30px; 
+}
+
+
+.services_bottom{
+    margin-top: 0px;
+}
+
+/*Stocks*/
+p.stocks_heading{
+    font-size: 24px;
+    width: 323px;
+}
+
+p.stocks_text{
+    width: 319px;
+}
+
+.stoks_content{
+     width: 699px;
+     padding-top: 47px;
+     padding-left: 50px;
+     padding-bottom: 68px;
+     padding-right: 50px;
+}
+
+
+.stoks_img{
+    width: 249px;
+    height: 253px;
+}
+
+
+.stoks_img__shadow{
+    width: 235px;
+    height: 240px;
+    top: 20px;
+    left: -15px;
+}
+
+
+.slider_array{
+    width: 58px;
+    height: 60px;
+}
+
+.elips{
+    width: 20px;
+    height: 20px;
+}
+
+
+/*Suppliers*/
+
+.suppliers_logo__row{
+    width: 439px;
+}
+
+.monge{
+    top: 28px;
+    right: 0px;
+}
+
+.elanko{
+ right: 80px; 
+    bottom: 17px;
+}
+
+
+.globalvet{
+    top: -89px;
+    left: -75px;
+}
+
+.suppliers_text{
+    width: 441px;
+}
+
+.suppliers_text__explanation{
+    width: 386px;
+}
+
+p.suppliers_heading{
+    margin-top: 20px;
+}
+
+
+
+.elanko{
+    bottom: 0px;
+     right: 98px;
+    
+}
+
+
+/*Doctors*/
+
+.doctor_img{
+    margin-left: 20px;
+    margin-right: 64px;
+    width: 360px;
+    height: 504px;
+}
+
+.doctor_text{
+    margin-right: 7px;
+    width: 371px;
+     position: relative;
+}
+
+.experience{
+    position: absolute;
+     width: 105px;
+}
+
+.certificates{
+    margin-right: 10px;
+}
+
+.merits p{
+    font-size: 14px;
+}
+
+
+/*certificates*/
+
+ img.certificates_mouse{
+    display: none;
+}
+
+.certificates_numbers__window{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.certificates_foto{
+    width: 310px;
+    height: 310px;
+}
+.certificates_foto__active{
+    width: 455px;
+    height: 455px;
+}
+
+p.certificates_text{
+    width: 900px;
+}
+
+/*articles*/
+
+.articles_content{
+        grid-template-columns: 1fr 1fr;
+    }
+
+/*Contact*/
+
+.contact_button{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+p.place{
+    margin-right: 50px;
+}
+
+p.place_active{
+ margin-right: 30px;
+}
+
+p.before_active{ 
+    margin-right: 30px;
+}
+
+/*Footer*/
+
+footer{
+    grid-template-columns: 3fr 2fr;
+}
+
+.footer_info{
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.footer_footer{
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+.footer_footer a{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.footer_info__content{
+    width: 600px;
+}
+
+/*header*/
+
+.nav_window{
+    padding-top: 40px;
+}
+p.nav_title{
+    margin-top: 0px;
+}
+
+@keyframes border_open {
+    0% {
+        width: 60px;
+    }
+
+    100% {
+        width: 600px;
+
+    }
+}
+
+@keyframes border_close {
+    0% {
+        width: 600px;
+    }
+
+    100% {
+        width: 60px;
+
+    }
+}
+
+/*.word_four*/
+
+/*#wordFour*/
+.word_four{
+    margin-top: 35px;
+   margin-left: -430px;
+}
+
+.word_second{
+    margin-top: 35px;
+   margin-left: -450px;
+}
+
+.advantage_four{
+    width: 550px;
+}
