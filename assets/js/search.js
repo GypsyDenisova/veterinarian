@@ -49,10 +49,10 @@
         setTimeout(Search, 2000, search, searchWhite, searchBlack, searchForm, searchClose);
     }
 
-    search.style.position = "absolute";
-    search.style.left = "82px";
+//    search.style.position = "absolute";
+//    search.style.left = "82px";
     Search(navSearch, searchNavWhite, searchNavBlack, searchNavForm, searchNavClose);
-    if(typeof search !== 'undefined'){Search(search, searchWhite, searchBlack, searchForm, searchClose)};
+//    if(typeof search !== 'undefined'){Search(search, searchWhite, searchBlack, searchForm, searchClose)};
     Search(mobileSearch, searchMobileWhite, searchMobileBlack, searchMobileForm, searchMobileClose);
 
     navSearch.addEventListener('click', (e) => {

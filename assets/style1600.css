@@ -126,3 +126,10 @@ nav ul li a {
 .button_top{
     left: 40px;
 }
+
+/*Phono Button*/
+
+#phonoButton{
+    bottom: 30px;
+    right: 25px;
+}

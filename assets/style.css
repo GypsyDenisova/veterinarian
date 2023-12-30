@@ -1811,3 +1811,11 @@ span.search_close:hover .close_whiter {
         transform: rotate(360deg);
     }
 }
+
+/*Phono Button*/
+
+#phonoButton{
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+}

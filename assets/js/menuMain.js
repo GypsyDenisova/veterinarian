@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var nav = document.getElementById('nav');
     var navClose = document.getElementById('navClose');
     var menuBurger = document.getElementById('menuBurger');
-    var burger = document.getElementById('burger');
 
     function menuClose() {
         nav.style.display = "none";
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     navClose.addEventListener('click', menuClose);
     menuBurger.addEventListener('click', menuOpen);
-    burger.addEventListener('click', menuOpen);
 
     var navMobile = document.getElementById('navMobile');
     var navMobileClose = document.getElementById('navMobileClose');
